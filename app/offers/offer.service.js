@@ -27,11 +27,16 @@ System.register(['angular2/core', 'angular2/http', 'rxjs/Observable'], function(
             OfferService = (function () {
                 function OfferService(http) {
                     this.http = http;
-                    this._offersUrl = 'app/offers.json';
+                    this._offersUrl = 'app/json/offers.json';
                 }
                 OfferService.prototype.getOffers = function () {
                     return this.http.get(this._offersUrl)
                         .map(function (res) { return res.json().data; })
+                        .catch(this.handleError);
+                };
+                OfferService.prototype.getOffer = function (id) {
+                    return this.http.get(this._offersUrl)
+                        .map(function (res) { return res.json().data.filter(function (offer) { return offer.id === id; })[0]; })
                         .catch(this.handleError);
                 };
                 OfferService.prototype.handleError = function (error) {
@@ -48,4 +53,5 @@ System.register(['angular2/core', 'angular2/http', 'rxjs/Observable'], function(
         }
     }
 });
+
 //# sourceMappingURL=offer.service.js.map

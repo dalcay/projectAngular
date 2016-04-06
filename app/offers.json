@@ -1,9 +1,0 @@
-{
-  "data": [
-    { "id": "1", "description": "¡Trae tu cuenta a nuestro banco y consigue un fatastico microondas!" },
-    { "id": "2", "description": "Ofertas para jubilados" },
-    { "id": "3", "description": "Ofertas para nuevos clientes" },
-    { "id": "4", "description": "¿No estas satisfecho con el microondas de regalo? ¡Te regalamos 2!" },
-    { "id": "5", "description": "Ofertas especiales" }
-  ]
-}

@@ -1,1 +1,1 @@
-{"version":3,"file":"offer.js","sourceRoot":"","sources":["offer.ts"],"names":[],"mappings":";;;;;;;YAAA;gBACE,cACS,EAAS,EACT,WAAkB;oBADlB,OAAE,GAAF,EAAE,CAAO;oBACT,gBAAW,GAAX,WAAW,CAAO;gBAAI,CAAC;gBAClC,WAAC;YAAD,CAAC,AAJD,IAIC;YAJD,uBAIC,CAAA;;;;AAGD;;;;EAIE"}
+{"version":3,"sources":["app/offers/offer.ts"],"names":[],"mappings":";;;;;;;YAAA;gBACE,eACS,EAAU,EACV,WAAmB;oBADnB,OAAE,GAAF,EAAE,CAAQ;oBACV,gBAAW,GAAX,WAAW,CAAQ;gBAAI,CAAC;gBACnC,YAAC;YAAD,CAJA,AAIC,IAAA;YAJD,yBAIC,CAAA","file":"app/offers/offer.js","sourceRoot":"../.."}

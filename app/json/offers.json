@@ -1,0 +1,9 @@
+{
+  "data": [
+    { "id": "1", "description": "¡Trae tu cuenta a nuestro banco y consigue un fatastico microondas!", "detail":"Blablablablablablablablabla bla bla bla bla bla bla bla bla bla bla Blablablablablablablablabla bla bla bla bla bla bla bla bla bla bla" },
+    { "id": "2", "description": "Ofertas para jubilados","detail":"jijijijijijiji ji jij iji ji jij ij j jij ij ij iji ji"  },
+    { "id": "3", "description": "Ofertas para nuevos clientes","detail":"casacsacacacsc cs ca as as sa ca cas sa as sca a " },
+    { "id": "4", "description": "¿No estas satisfecho con el microondas de regalo? ¡Te regalamos 2!","detail":"bla bla bla bla bla bla bla" },
+    { "id": "5", "description": "Ofertas especiales","detail":"pqpqpqpqppqqppqqpq qppq pq pqp qppq pqp q" }
+  ]
+}

@@ -1,24 +1,20 @@
 System.register([], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
-    var Hero;
+    var Offer;
     return {
         setters:[],
         execute: function() {
-            Hero = (function () {
-                function Hero(id, description) {
+            Offer = (function () {
+                function Offer(id, description) {
                     this.id = id;
                     this.description = description;
                 }
-                return Hero;
+                return Offer;
             }());
-            exports_1("Hero", Hero);
+            exports_1("Offer", Offer);
         }
     }
 });
-/*
-Copyright 2016 Google Inc. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/
+
 //# sourceMappingURL=offer.js.map
